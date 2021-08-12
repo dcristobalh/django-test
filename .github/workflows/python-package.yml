@@ -35,4 +35,4 @@ jobs:
     - name: Run migrations
       run: python webpersonal/manage.py migrate
     - name: Run tests
-      run: py.test
+      run: py.test webpersonal/webpersonal
