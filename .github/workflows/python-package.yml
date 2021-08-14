@@ -35,4 +35,4 @@ jobs:
       env:
         DATABASE_URL: ${{ secrets.DATABASE_URL }}
       run: |
-        python3 manage.py test # Don't forget to run tests
+        python3 webpersonal/manage.py test # Don't forget to run tests
